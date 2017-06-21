@@ -1,0 +1,29 @@
+.spen-page-content {
+	border-left: 1px solid #d6d6d6;
+	float: right;
+	min-height: calc(100vh - 55px);
+	.spen-main-content {
+		padding: 0 45px;
+	}
+}
+@media(max-width: 1200px) {
+	.spen-page-content {
+		float: none;
+		border-left: none;
+	}
+}
+
+@media(max-width: 767px) {
+	.spen-page-content {
+		.spen-main-content {
+			padding: 0 25px;
+		}
+  }
+}
+@media(max-width: 480px) {
+	.spen-page-content {
+		.spen-main-content {
+			padding: 0 15px;
+		}
+  }
+}
