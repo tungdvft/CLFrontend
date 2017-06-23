@@ -1,15 +1,14 @@
 .spen-page-content {
 	border-left: 1px solid #d6d6d6;
-	float: right;
+  margin-left: 240px;
+	padding: 30px;
+  @include transition(all .3s ease);
+
 	min-height: calc(100vh - 55px);
-	.spen-main-content {
-		padding: 0 45px;
-	}
 }
 @media(max-width: 1200px) {
 	.spen-page-content {
-		float: none;
-		border-left: none;
+    margin-left: 0;
 	}
 }
 

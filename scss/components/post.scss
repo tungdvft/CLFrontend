@@ -1,6 +1,6 @@
 .post-item {
 	border: 1px solid #d6d6d6;
-	margin-top: 20px;
+	margin-bottom: 20px;
 	background-color: #fff;
 	.post-content {
 		padding: 15px;
@@ -18,7 +18,7 @@
 				float: left;
 				margin-right: 30px;
 			}
-		.name, .description {			
+		.name, .description {
 			a {
 				font-size: 18px;
 				color: #0088c7;
@@ -139,4 +139,3 @@
 		}
 	}
 }
-
