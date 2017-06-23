@@ -1,10 +1,12 @@
 .spen-page-content {
 	border-left: 1px solid #d6d6d6;
   margin-left: 240px;
-	padding: 30px;
+	// padding: 0 30px 30px;
   @include transition(all .3s ease);
-
 	min-height: calc(100vh - 55px);
+	.spen-main-content {
+		padding: 30px;
+	}
 }
 @media(max-width: 1200px) {
 	.spen-page-content {

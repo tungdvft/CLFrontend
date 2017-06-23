@@ -6,6 +6,7 @@
   left: 0;
   height: calc(100vh - 55px);  //height of full screen - height of header
   @include transition(transform .3s ease);
+  
   li {
     a {
       display: block;

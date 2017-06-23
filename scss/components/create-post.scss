@@ -1,0 +1,68 @@
+.prev-page {
+	padding: 10px 20px;
+	background-color: #e6e6e6;
+	a {
+		color: #000;
+		i {
+			margin-right: 10px;
+		}
+	}
+
+}
+.create-post {
+	h1{
+		margin-top: 15px;
+		font-weight: normal;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #d6d6d6;
+	}
+	h2{
+		margin-top: 40px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #d6d6d6;
+		font-weight: normal;
+	}
+	.spen-mod-table
+	 .table {
+	 		border: none;
+	 		.spen-mod-select {
+	 			width: 100%;
+	 		}
+	 		.spen-mod-input-text::-webkit-input-placeholder {
+			  color: #000;
+			}
+			.spen-mod-input-text:-ms-input-placeholder {
+			 	color: #000;
+			}
+			.spen-mod-input-text::-moz-placeholder {
+			 	color: #000;
+			}
+			.spen-mod-input-text:-moz-placeholder{
+			 	color: #000;
+			}
+		textarea {
+			width: 100%;
+			border-radius: 4px;
+			border: 1px solid #ccc;
+			resize: none;
+			height: 238px;
+		}	
+		td {
+			.cell-inner {
+				padding-right: 50px;
+			}
+		}
+	 }
+	.submit {
+		text-align: center;
+		margin-top: 40px;
+		button {
+			display: inline-block;
+			min-width: 200px;
+			padding: 10px 45px 8px;
+		}
+		.is-default {
+			margin-right: 30px;
+		}
+	}
+}
