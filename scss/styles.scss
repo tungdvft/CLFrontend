@@ -1,8 +1,8 @@
-@import 'flexboxgrid.min';
-@import 'sharpStyle';
+@import 'libs/flexboxgrid.min';
+@import 'libs/sharpStyle';
 
-@import 'normalize';
-@import 'mixins';
+@import 'base/normalize';
+@import 'base/mixins';
 @import 'utilities';
 @import 'layouts/layouts';
 @import 'components/components';

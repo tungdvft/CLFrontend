@@ -1,28 +1,30 @@
 .spen-page-content {
-	border-left: 1px solid #d6d6d6;
+  border-left: 1px solid #d6d6d6;
   margin-left: 240px;
-	padding: 30px;
   @include transition(all .3s ease);
 
-	min-height: calc(100vh - 55px);
+  min-height: calc(100vh - 55px);
+  .spen-main-content {
+    padding: 30px;
+  }
 }
 @media(max-width: 1200px) {
-	.spen-page-content {
+  .spen-page-content {
     margin-left: 0;
-	}
+  }
 }
 
 @media(max-width: 767px) {
-	.spen-page-content {
-		.spen-main-content {
-			padding: 0 25px;
-		}
+  .spen-page-content {
+    .spen-main-content {
+      padding: 0 25px;
+    }
   }
 }
 @media(max-width: 480px) {
-	.spen-page-content {
-		.spen-main-content {
-			padding: 0 15px;
-		}
+  .spen-page-content {
+    .spen-main-content {
+      padding: 0 15px;
+    }
   }
 }

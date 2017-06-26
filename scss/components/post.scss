@@ -1,141 +1,141 @@
 .post-item {
-	border: 1px solid #d6d6d6;
-	margin-bottom: 20px;
-	background-color: #fff;
-	.post-content {
-		padding: 15px;
-	}
-	.header-post {
-		border-bottom: 1px solid #d6d6d6;
-		padding-bottom: 10px;
-		display: -webkit-flex;
-		display: flex;
-		.info-user {
-			width: 50%;
-			text-align: left;
-			margin-left: 20px;
-			.avatar {
-				float: left;
-				margin-right: 30px;
-			}
-		.name, .description {
-			a {
-				font-size: 18px;
-				color: #0088c7;
-				font-weight: bold;
-				span {
-					font-weight: normal;
-					color: #000;
-				}
-			}
-			h2 {
-				margin-top: 5px;
-			}
-		}
-	}
-	.post-date {
-		width: 50%;
-		text-align: right;
-	}
+  border: 1px solid #d6d6d6;
+  margin-bottom: 20px;
+  background-color: #fff;
+  .post-content {
+    padding: 15px;
+  }
+  .header-post {
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 10px;
+    display: -webkit-flex;
+    display: flex;
+    .info-user {
+      width: 50%;
+      text-align: left;
+      margin-left: 20px;
+      .avatar {
+        float: left;
+        margin-right: 30px;
+      }
+    .name, .description {
+      a {
+        font-size: 18px;
+        color: #0088c7;
+        font-weight: bold;
+        span {
+          font-weight: normal;
+          color: #000;
+        }
+      }
+      h2 {
+        margin-top: 5px;
+      }
+    }
+  }
+  .post-date {
+    width: 50%;
+    text-align: right;
+  }
 }
 .post-details {
-	padding: 30px 15px 30px 20px;
-	border-bottom: 1px solid #d6d6d6;
+  padding: 30px 15px 30px 20px;
+  border-bottom: 1px solid #d6d6d6;
 }
 .post-footer {
-	display: -webkit-flex;
+  display: -webkit-flex;
   display: flex;
-	flex-wrap: wrap;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 0 15px 0 20px;
-	.post-footer-element{
-		width: 25%;
-		text-align: left;
-		a {
-			font-weight: bold;
-			color: #000;
-		}
-	}
-	.post-group {
-		i {
-			color: #999;
-		}
-	}
-	.post-text {
-		text-align: right;
-	}
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0 15px 0 20px;
+  .post-footer-element{
+    width: 25%;
+    text-align: left;
+    a {
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  .post-group {
+    i {
+      color: #999;
+    }
+  }
+  .post-text {
+    text-align: right;
+  }
 
 }
 .comment-form {
-	background-color: #fafafa;
-	padding: 10px 40px;
-	border-top: 1px solid #d6d6d6;
-	.avatar {
-		float: left;
-		max-width: 44px;
-		max-height: 44px;
-		img {
-			width: 44px;
-		}
-	}
-	.comment-input {
-		float: left;
-		margin-left: 10px;
-		width: 90%;
-	}
+  background-color: #fafafa;
+  padding: 10px 40px;
+  border-top: 1px solid #d6d6d6;
+  .avatar {
+    float: left;
+    max-width: 44px;
+    max-height: 44px;
+    img {
+      width: 44px;
+    }
+  }
+  .comment-input {
+    float: left;
+    margin-left: 10px;
+    width: 90%;
+  }
 }
 }
 
 .post-reply {
-	padding: 20px;
-	margin-top: 30px;
-	background-color: #fafafa;
-	border: 1px solid #d6d6d6;
-	h3 {
-		font-weight: normal;
-		a {
-			color: #0088c7;
-		}
-	}
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #fafafa;
+  border: 1px solid #d6d6d6;
+  h3 {
+    font-weight: normal;
+    a {
+      color: #0088c7;
+    }
+  }
 }
 
 
 @media(max-width: 767px) {
-	.post-item {
-		.post-footer {
-			.post-footer-element {
-				width: 50%;
-				text-align: left;
-				margin-top: 10px;
-			}
-		}
-		.comment-form {
-			.comment-input {
-				width: 78%;
-			}
-		}
-		.header-post{
-			flex-wrap: wrap;
-			.post-date, .info-user{
-				width: 100%;
-			}
-		}
-	}
+  .post-item {
+    .post-footer {
+      .post-footer-element {
+        width: 50%;
+        text-align: left;
+        margin-top: 10px;
+      }
+    }
+    .comment-form {
+      .comment-input {
+        width: 78%;
+      }
+    }
+    .header-post{
+      flex-wrap: wrap;
+      .post-date, .info-user{
+        width: 100%;
+      }
+    }
+  }
 }
 
 @media(max-width: 480px){
-	.post-item {
-		.post-footer {
-			.post-footer-element {
-				width: 100%;
-				text-align: left;
-			}
-		}
-		.comment-form {
-			.comment-input {
-				width: 70%;
-			}
-		}
-	}
+  .post-item {
+    .post-footer {
+      .post-footer-element {
+        width: 100%;
+        text-align: left;
+      }
+    }
+    .comment-form {
+      .comment-input {
+        width: 70%;
+      }
+    }
+  }
 }
