@@ -1,3 +1,45 @@
+.create-post-button {
+  padding: 25px 55px;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  .spen-mod-btn {
+    display: block;
+    width: 100%;
+    font-weight: normal;
+  }
+}
+.reset-post-button {
+  padding: 15px;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-top: 30px;
+  .row {
+    margin-left: -5px;
+    .col-md-2, .col-md-3 {
+      padding: 0 5px;
+    }
+  }
+  .section-contents {
+    margin-top: 15px;
+    .spen-mod-input-text {
+      padding-right: 0px;
+    }
+    .spen-mod-input-text::-webkit-input-placeholder {
+      color: #333;
+    }
+    .spen-mod-input-text:-ms-input-placeholder {
+      color: #333;
+    }
+    .spen-mod-input-text::-moz-placeholder {
+      color: #333;
+    }
+    .spen-mod-input-text:-moz-placeholder {
+      color: #333;
+    }
+  }
+}
 .heading-title {
   padding-bottom: 10px;
   border-bottom: 2px solid #ccc;
@@ -9,8 +51,21 @@
   border: 1px solid #d6d6d6;
   background-color: #fff;
   margin-top: 30px;
+  position: relative;
   .post-content {
-    padding: 15px;
+    padding: 15px 15px 0 15px;
+  }
+  .count-label {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e54545;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
   }
   .header-post {
     border-bottom: 1px solid #d6d6d6;
@@ -51,6 +106,10 @@
   a {
     color: #0088c7;
   }
+   i {
+      font-size: 14px;
+      color: #999999;
+    }
 }
 .post-footer {
   display: -webkit-flex;
@@ -59,12 +118,12 @@
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0 15px 0 20px;
-  .post-footer-element{
+  .post-footer-element {
     width: 25%;
     text-align: left;
     a {
       font-weight: bold;
-      color: #000;
+      color: #505050;
     }
   }
   .post-group {
@@ -77,26 +136,47 @@
   }
 
 }
-.comment-form {
+.post-comment {
   background-color: #fafafa;
-  padding: 10px 40px;
+  
   border-top: 1px solid #d6d6d6;
-  .avatar {
-    float: left;
-    max-width: 44px;
-    max-height: 44px;
-    img {
-      width: 44px;
+  .comment-form {
+    padding: 10px 40px;
+    .avatar {
+      float: left;
+      max-width: 44px;
+      max-height: 44px;
+      img {
+        width: 44px;
+      }
+    }
+    .comment-input {
+      float: left;
+      margin-left: 10px;
+      width: 90%;
+    }
+    .comment-text {
+      float: left;
+      margin-left: 25px;
+      a {
+        color: #0088c7;
+      }
     }
   }
-  .comment-input {
-    float: left;
-    margin-left: 10px;
-    width: 90%;
-  }
-}
 }
 
+}
+.item-with-count {
+  .post-footer {
+    .post-footer-element {
+     
+      a {
+        font-weight: bold;
+        color: #0088c7;
+      }
+    }
+  }
+}
 .post-reply {
   padding: 20px;
   margin-top: 30px;
