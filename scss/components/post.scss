@@ -1,7 +1,14 @@
+.heading-title {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
 .post-item {
   border: 1px solid #d6d6d6;
-  margin-bottom: 20px;
   background-color: #fff;
+  margin-top: 30px;
   .post-content {
     padding: 15px;
   }
@@ -41,6 +48,9 @@
 .post-details {
   padding: 30px 15px 30px 20px;
   border-bottom: 1px solid #d6d6d6;
+  a {
+    color: #0088c7;
+  }
 }
 .post-footer {
   display: -webkit-flex;
