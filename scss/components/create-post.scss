@@ -66,7 +66,38 @@
         border: 1px solid #ccc;
         resize: none;
         height: 238px;
-      } 
+      }
+      .textarea-dark {
+        background-color: #eee;
+        width: 100%;
+        margin-top: 20px;
+      }
+      .btn-right {
+        float: right;
+        margin-top: 10px;
+      }
+      .row-2 {
+        margin-top: 20px;
+      }
+    }
+    .spen-mod-radio {
+      display: block;
+      margin-top: 5px;
+    }
+    .hour {
+      .spen-mod-select {
+        display: block;
+        float:left;
+        width: 45%;
+        .select {
+          padding: 0 5px;
+        }
+      }
+      span {
+        display: block;
+        float: left;
+        margin: 10px 2px 0 2px;
+      }
     }
   }
   .submit {
@@ -76,6 +107,7 @@
       display: inline-block;
       min-width: 200px;
       padding: 10px 45px 8px;
+      margin-bottom: 60px;
     }
     .is-default {
       margin-right: 30px;
@@ -84,20 +116,34 @@
 
 }
 @media (max-width: 767px) {
+  .create-post {
+    .form-horizontal {
+      .form-group {
+        padding-right: 20px;
+        .spen-mod-input-date {
+          margin-top: 15px;
+        }
+        .hour {
+          margin-top: 15px;
+        }
+      }
+    }
+   
+  }
   .three-col {
     .is-default {
       margin-top: 15px;
     }
   }
-  .form-group {
-    padding-right: 20px!important;
-  }
+  
 }
 @media (max-width: 502px) {
-  .submit {
-    .is-default {
-      margin-bottom: 15px;
-      margin-right: 0!important;
+  .create-post {
+    .submit {
+      .is-default {
+        margin-bottom: 15px;
+        margin-right: 0;
+      }
     }
   }
   
