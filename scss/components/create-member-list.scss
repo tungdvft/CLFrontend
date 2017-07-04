@@ -1,0 +1,44 @@
+.create-member-table {
+  margin-top: 60px;
+  .head-table-member {
+    margin-bottom: 15px;
+    .col-md-6 {
+      p {
+        font-weight: bold;
+        margin-top: 12px;
+        font-size: 20px;
+        span {
+          font-weight: normal;
+          font-size: 16px;
+          margin-left: 10px;
+        }
+      }  
+      button {
+        float: right;
+      }
+    }
+  }
+  .table {
+    th {
+      font-weight: normal;
+      &:first-child {
+        .cell-inner {
+          text-align: left;
+          padding-left: 20px;
+        }
+      }
+      
+    }
+    td {
+      a {
+        color: #0088c7;
+        font-size: 20px;
+      }
+    }
+  }
+}
+.member-panation {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 100px;
+}
