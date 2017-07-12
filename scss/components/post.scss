@@ -210,6 +210,12 @@
           margin-left: 40px;
         }
       }
+      .spen-mod-input-text {
+         resize: none;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         overflow: hidden;
+      }
     }
   }
 }
@@ -292,8 +298,16 @@
       }
     }
   }
+  .reset-post-button {
+    .spen-mod-btn.is-default {
+      margin-top: 15px;
+    }
+  }
 }
 @media(max-width: 767px) {
+  .heading-title {
+    margin-top: 30px;
+  }
   .post-item {
     .post-footer {
       .post-footer-element {
@@ -346,6 +360,10 @@
       .comment-form {
         .comment-text {
           width: 68%;
+          span {
+            display: block;
+            margin-left: 0;
+          }
         }
       }
     }
