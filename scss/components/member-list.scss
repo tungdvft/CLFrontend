@@ -1,31 +1,38 @@
 .input-field {
   padding: 15px 0;
   border-bottom: 1px solid #d6d6d6;
+
   p {
     line-height: 44px;
   }
 }
+
 .member-list {
   .spen-mod-parallel-blocks {
     .parallel-block {
       .parallel-content {
         padding: 0;
+
         .content-inner {
-          overflow-y:auto;
+          overflow-y: auto;
           height: auto;
+
           .content-lists {
             li {
               border-bottom: 1px solid #d6d6d6;
-              padding: 5px 20px;;
+              padding: 5px 20px;
+
               img {
                 max-width: 45px;
                 display: inline-block;
                 margin-right: 20px;
                 vertical-align: middle;
               }
+
               .remove-btn {
                 right: 15px;
               }
+
               &:last-child {
                 border-bottom: none;
               }
@@ -36,65 +43,71 @@
     }
   }
 }
+
 .spen-ly-static {
   position: static;
   background: none;
+
   .modal-dialog {
     .inner {
       width: 100%;
       border-radius: 0;
+
       .content-inner {
         height: 450px;
-        overflow-y : scroll;
+        overflow-y: scroll;
+
         h3 {
           font-weight: normal;
           margin-bottom: 10px;
         }
-        
       }
     }
- 
   }
-
 }
+
 .spen-mod-flex-table {
   .flex-table-head {
     text-align: left;
+
     .flex-item {
       padding: 12px 20px;
     }
-    
   }
+
   .flex-table-row {
-    .item-3{
+    .item-3 {
       flex-basis: 80%;
       padding: 20px 5px;
-     
     }
+
     i {
       font-size: 40px;
-      color:#999;
+      color: #999;
     }
+
     img {
       max-width: 45px;
       vertical-align: middle;
     }
   }
 }
+
 .modal-search {
   margin-top: 20px;
   margin-bottom: 40px;
+
   .spen-mode-label-search {
     position: relative;
     width: 40%;
     margin: 0 auto;
     display: block;
-   
+
     i {
       position: absolute;
       top: 8px;
       right: 20px;
-      color:#999;
+      color: #999;
     }
   }
-} 
+}
