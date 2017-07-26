@@ -3,7 +3,7 @@
   margin-top: 10px;
 }
 .table-user {
-  margin-top: 30px;
+  margin-top: 40px;
   .review-count {
     color: #999;
     margin-bottom: 10px;
@@ -13,4 +13,30 @@
       text-align: center;
     }
   }
+}
+.has-tab.tab-no-border {
+  .spen-util-inner {
+    padding-top: 40px;
+  }
+  li {
+   .tab-change-trigger{
+     border-top:  1px solid #fafafa;
+     &:hover {
+       border-top:  1px solid #fafafa;
+     }
+   }
+  }
+  li.is-current {
+    border-top: 1px solid #ddd;
+    font-weight: 600;
+  }
+}
+.review-count span {
+  font-weight: bold;
+  color: #000;
+}
+.table-panation {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  text-align: center;
 }
