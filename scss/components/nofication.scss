@@ -1,0 +1,156 @@
+.header-noti {
+  .page-title {
+    -webkit-box-pack: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+    -webkit-box-align: flex-start;
+    padding-left: 152px;
+  }
+  .classi-logo {
+    border-right: none;
+  }
+  .header-content.dummy-content {
+    -webkit-box-pack: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
+    -webkit-box-align: flex-end;
+    .modal-search {
+      margin: auto;
+      .spen-mode-label-search {
+        width: 275px;
+        i {
+          right: 5px;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  i.fa-question {
+    font-size: 32px;
+  }
+  .user-information {
+    position: relative;
+    padding-right: 50px;
+    &:after {
+      content: "\f0d7";
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      color: #999;
+      font-family: FontAwesome;
+      margin-top: -12px;
+      cursor: pointer;
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+}
+.sub-title {
+  margin-top: 40px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.listing-noti {
+  margin-top: 25px;
+  border: 1px solid #d6d6d6;
+  .item-noti {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+      border-bottom :none;
+    }
+    .avatar {
+      float: left;
+      margin-right: 15px;
+      height: 54px;
+    }
+    .info-noti {
+      span {
+        font-weight: 600;
+      }
+      .noti-date {
+        color: #999;
+      }
+    }
+  }
+  .item-blue {
+    background-color: #d9edf7;
+  }
+}
+.noti-input {
+  .spen-mod-input {
+    width: 100%;
+    padding-left: 70px;
+    display: inline-block;
+    position: relative;
+    &:after {
+      content: "\f073";
+      display: block;
+      position: absolute;
+      color: #999;
+      font-family: FontAwesome;
+      margin-top: -12px;
+      left: 85px;
+      font-size: 20px;
+      top: 46%;
+    }
+    &:hover {
+      cursor: auto;
+    }
+    input {
+      padding-left: 40px;
+      height: 37px;
+      cursor: auto;
+    }
+    .check-reply {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      bottom: 5px;
+      width: 95px;
+      border-radius: 15px;
+      text-align: center;
+      color: #fff;
+      padding-top: 2px;
+    }
+    .no-reply {
+      background-color: #0088c7;
+    }
+    .out-date {
+      background-color: #e54545;
+    }
+    .has-reply {
+      background-color: #999999;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .noti-input {
+    .spen-mod-input {
+      padding-left: 0;
+      &:after {
+        left: 5px;
+      }
+      input {
+        padding-left: 30px;
+        font-size: 14px;
+      }
+      .check-reply {
+        position: static;
+        float: right;
+        margin-top: 5px;
+      }
+      &:after {
+        top: 27%;
+      }
+    }
+
+  }
+  .modal-search {
+    display: none;
+  }
+
+
+}
