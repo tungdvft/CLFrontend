@@ -1,5 +1,5 @@
 .left-sidebar {
-  width: 240px;
+  width: 20%;
   padding: 5px;
   position: absolute;
   top: 0;
@@ -10,9 +10,10 @@
     a {
       display: block;
       color: #000;
-      padding: 10px 15px 10px 25px;
+      padding: 10px 45px 10px 25px;
       border-radius: 4px;
       font-size: 14px;
+      position: relative;
       &:hover{
         background-color: #c3e5f4;
       }
@@ -23,8 +24,10 @@
         border-radius: 13px;
         background-color: #e54545;
         text-align: center;
-        color: #fff;
-        float: right;
+        color: $while;
+        position: absolute;
+        right: 20px;
+        top: 10px;
       }
       &.active{
         background-color: #c3e5f4;
@@ -32,8 +35,38 @@
     }
   }
 }
-@media(max-width: 1200px) {
+
+@media (max-width: 1200px) {
+  .left-sidebar {
+    li {
+      a {
+        padding-left: 5px;
+        span.notification-number {
+          width: 30px;
+          right: 5px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 768px) {
   .left-sidebar {
     @include transform(translateX(-240px));
+  }
+  .left-sidebar.open-sidebar {
+    width: 100%;
+    z-index: 9999;
+    background-color: $while;
+    @include transform(translateX(0));
+    position: fixed;
+    top: 55px;
+    li {
+      a {
+        padding:15px;
+        span.notification-number {
+          right: 15px;
+        }
+      }
+    }
   }
 }

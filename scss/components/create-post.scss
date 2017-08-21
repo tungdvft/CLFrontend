@@ -32,7 +32,7 @@
   h2 {
     margin-top: 40px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #d6d6d6;
+    border-bottom: 1px solid $gray;
     font-weight: normal;
     font-size: 20px;
   }
@@ -115,11 +115,91 @@
   }
 
 }
+.attach {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid $gray;
+  margin-top: 30px;
+
+  .action-file {
+    display: block;
+    width: 46px;
+    height: 46px;
+    background-color: $while;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 4px;
+    color: #0088c7;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .file-name {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    text-align: left;
+    background: $black-opacity;
+    color: $while;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .file-format {
+    margin-top: calc(40% - 30px);
+    margin-bottom: calc(60% - 30px);
+
+    i {
+      font-size: 60px;
+    }
+    .fa-file-pdf-o {
+      color: #ff3401;
+    }
+    .fa-file-excel-o {
+      color: #266e45;
+    }
+    .fa-file-word-o {
+      color: #285091;
+    }
+    .fa-file-movie-o {
+      color: #666666;
+    }
+  }
+  .image-format {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: $black-opacity;
+  }
+  .number-attach {
+    position: absolute;
+    top:calc(50% - 30px);
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: $while;
+  }
+}
+.attach-image img {
+  margin-bottom: -6px;
+  width: 100%;
+}
 @media (max-width: 767px) {
   .create-post {
     .form-horizontal {
       .form-group {
-        padding-right: 20px;
+        padding-right: 0;
         .spen-mod-input-date {
           margin-top: 15px;
         }
@@ -128,14 +208,14 @@
         }
       }
     }
-   
+
   }
   .three-col {
     .is-default {
       margin-top: 15px;
     }
   }
-  
+
 }
 @media (max-width: 502px) {
   .create-post {
@@ -146,5 +226,11 @@
       }
     }
   }
-  
+
+}
+@media (max-width: 480px) {
+  .full-480 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }

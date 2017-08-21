@@ -218,6 +218,23 @@
       }
     }
   }
+  .attach {
+
+
+    .action-file {
+
+      i {
+        color: #0088c7;
+        font-size: 30px;
+      }
+    }
+    .file-name {
+      color: #fff;
+      font-size: 16px;
+
+    }
+  }
+
 }
 
 .item-with-count {
@@ -378,6 +395,9 @@
   }
 
   .reset-post-button {
+    .row {
+      margin:0;
+    }
     label {
       margin-top: 15px;
     }
@@ -392,6 +412,9 @@
         border-right: none;
       }
     }
+  }
+  .create-post-button {
+    margin-top: 20px;
   }
 }
 @media(max-width: 570px) {
