@@ -63,11 +63,11 @@
 .post-item {
   border: 1px solid #d6d6d6;
   background-color: #fff;
-  margin-top: 30px;
+  margin-top: 16px;
   position: relative;
 
   .post-content {
-    padding: 15px 15px 0;
+    padding: 16px 16px 0;
   }
 
   .count-label {
@@ -95,7 +95,8 @@
 
       .avatar {
         float: left;
-        margin-right: 30px;
+        margin-right: 16px;
+        max-height: 54px;
       }
 
       .description,
@@ -124,7 +125,7 @@
   }
 
   .post-details {
-    padding: 25px 0;
+    padding: 24px 0;
     border-bottom: 1px solid #d6d6d6;
 
     a {
@@ -143,7 +144,7 @@
     flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 0 15px 0 20px;
+    padding: 12px 0;
 
     .post-footer-element {
       width: 25%;
@@ -169,7 +170,7 @@
   .post-comment {
     background-color: #fafafa;
     border-top: 1px solid #d6d6d6;
-    padding: 20px 20px 10px 20px;
+    padding: 12px 16px 8px 16px;;
     h3 {
       font-size: 18px;
       color: #666;
@@ -177,7 +178,7 @@
       border-bottom : 1px solid #ddd;
     }
     .comment-form {
-      padding: 10px 0;
+      padding: 10px 0 0 0;
 
       .avatar {
         float: left;
@@ -199,7 +200,7 @@
 
       .comment-text {
         float: left;
-        margin-left: 25px;
+        margin-left: 16px;
         width: 80%;
 
         a {
@@ -286,7 +287,7 @@
 }
 
 .post-reply {
-  padding: 20px;
+  padding: 16px;
   margin-top: 30px;
   background-color: #fafafa;
   border: 1px solid #d6d6d6;
@@ -461,6 +462,10 @@
 }
 .spen-ly-static .modal-dialog .inner {
   margin-top: 30px;
+}
+.listing-files {
+  margin-left: 7px;
+  margin-right: 7px;
 }
 @media(max-width: 992px) {
   .post-comment {
